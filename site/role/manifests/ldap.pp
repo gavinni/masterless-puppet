@@ -1,4 +1,4 @@
 class role::ldap {
   contain profile::base
-  contain profile::devldap
+  contain profile::ldap
 }
