@@ -19,4 +19,4 @@ while getopts "f:?" OPTION; do
   esac
 done
 
-/opt/puppetlabs/bin/puppet apply --verbose --debug --detailed-exitcodes --modulepath ./modules --hiera_config ./hieradata/hiera.yaml manifests
+/opt/puppetlabs/bin/puppet apply --verbose --debug --detailed-exitcodes --modulepath modules:site:third_party:$basemodulepath --hiera_config ./hieradata/hiera.yaml manifests
