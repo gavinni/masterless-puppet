@@ -1,0 +1,12 @@
+---
+:backends:
+  - eyaml
+  - yaml
+:yaml:
+  :datadir: "hieradata"
+:eyaml:
+  :extension: eyaml
+  :datadir: "hieradata"
+:hierarchy:
+  - "common"
+:merge_behavior: deeper
