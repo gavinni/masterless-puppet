@@ -1,1 +1,2 @@
 openldap::profile:version: 2.4.40
+openldap::server:rootpw: s3cret
