@@ -10,3 +10,6 @@ mod 'puppetlabs-java_ks', :latest
 mod 'puppetlabs-haproxy', :latest
 mod 'puppet/staging', :latest
 mod 'puppetlabs-stdlib', :latest
+
+mod 'herculesteam/augeasproviders_core', :latest
+mod 'herculesteam/augeasproviders_shellvar', :latest
