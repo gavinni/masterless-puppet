@@ -1,0 +1,21 @@
+{
+  "Gemfile": "b457cf1c3d7744df0d83d7dad4e35e91",
+  "README.md": "807ee45421a5649f8fe29ba378dadada",
+  "Rakefile": "a7795e56e60831359d3ad45e3631768a",
+  "files/RPM-GPG-KEY-puppetexplorer": "0bb5670859cd66ce9e0a9ac34ab682ff",
+  "manifests/apache.pp": "dc5d2964645e89bdef4cb8d10eee7740",
+  "manifests/init.pp": "375faa181c3619346443d21b2565c672",
+  "metadata.json": "c182cfa0d8240cf705bd98441a4dac45",
+  "spec/acceptance/classes/puppetexplorer_spec.rb": "d582315508caa76b79569001c96ad172",
+  "spec/acceptance/nodesets/centos-7.yml": "c39567afff7d66d5a848449b172d36a2",
+  "spec/acceptance/nodesets/debian-7.yml": "fa763fb8e3dac9b2c3ec863caf8bd3e0",
+  "spec/acceptance/nodesets/default.yml": "fa763fb8e3dac9b2c3ec863caf8bd3e0",
+  "spec/acceptance/nodesets/ubuntu-1404.yml": "52aa47fcbd1e4dfdb90aa38a432cf174",
+  "spec/acceptance/nodesets/ubuntu-1604.yml": "f7f6562b0c4be5be02004f280c0d634b",
+  "spec/classes/init_spec.rb": "fe54cd8696609e2f78224d11fd3159ae",
+  "spec/spec_helper.rb": "d1a143506ad66f8a988ed723d5492794",
+  "spec/spec_helper_acceptance.rb": "1d7e829cd10aa0c264bd289cbed27e09",
+  "templates/config.js.erb": "e6ae46cc0ffbdd54fc4e7ed25d796f6a",
+  "tests/basic_auth.pp": "a6c495bee00f0a3fb66a1cb0c7252c25",
+  "tests/init.pp": "dfc3553140af3c3ec868dd2110c4b40a"
+}

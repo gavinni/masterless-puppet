@@ -1,0 +1,13 @@
+{
+  "CHANGELOG.md": "98b2caf2b47af064e3cdf87ece226883",
+  "LICENSE": "0bb6e240844265516efdc035fb203f4b",
+  "README.md": "1a6a98288d3b6f6d59bbacd280924fe3",
+  "manifests/init.pp": "73f4675f793711114dbf8c34a0c5bf62",
+  "manifests/params.pp": "e7ee031a52ebf8f9977f10dec27e81a6",
+  "manifests/vrrp.pp": "2c94f14ec2fe38d1cfe4545c406f758c",
+  "metadata.json": "0ff095c11f3bba14c48dadda105ee176",
+  "templates/conf.d.erb": "7d6618d86f22b8e5d9243967254c4aa7",
+  "templates/keepalived-vrrp.conf.erb": "0856ce42849716befb2ca9ff1b86da85",
+  "templates/sysconfig.erb": "cfb6f4403d37c36a33c65df6d99fda04",
+  "tests/init.pp": "3ebbdd0a32b7a26664ab81a31e353c8e"
+}
