@@ -8,12 +8,6 @@ class profile::ldap {
     rootpw    => hiera('openldap::server:rootpw'),
   }
 
-  class { 'openldap::client':
-    base => 'dc=somedir,dc=some,dc=com',
-    uri  => ['ldap:///', 'ldapapi:///'],
-    #tls_cacert => '/some/ssl/certs/cacert.pem',
-  }
-
   openldap::server::module { 'memberof':
     ensure => present,
   }
