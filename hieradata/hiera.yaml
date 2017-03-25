@@ -8,7 +8,7 @@
   :extension: eyaml
   :datadir: "hieradata"
 :hierarchy:
-    - %{::environment}/%{::role}
-    - %{::role}
+#    - %{::environment}/%{::role}
+#    - %{::role}
     - common
 :merge_behavior: deeper
