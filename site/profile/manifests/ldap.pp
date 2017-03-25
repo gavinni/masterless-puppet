@@ -1,6 +1,14 @@
 class profile::ldap {
+
 #OpenLDAP setup
   class { 'openldap::server': }
+
+  file { '/opt/openldap':
+    ensure => 'directory',
+    owner  => 'ldap',
+    group  => 'ldap',
+    mode   => '0750',
+  }
 
   openldap::server::database { 'dc=somedir,dc=some,dc=com':
     directory => '/opt/openldap/some-data/',

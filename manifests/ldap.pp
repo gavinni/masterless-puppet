@@ -1,3 +1,3 @@
-node /ldap.local/ {
+node /ldap/ {
   include role::ldap
 }
