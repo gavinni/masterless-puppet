@@ -11,7 +11,7 @@ class profile::ldap {
   }
 
   openldap::server::database { 'dc=somedir,dc=some,dc=com':
-    backend   => 'bdb'
+    backend   => 'bdb',
     directory => '/opt/openldap/some-data/',
     rootdn    => 'cn=admin,dc=somedir,dc=some,dc=com',
     rootpw    => hiera('openldap::server:rootpw'),
