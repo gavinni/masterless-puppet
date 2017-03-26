@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
     config.vm.provision "shell", inline: "rpm -evh  puppet.noarch"
     config.vm.provision "shell", inline: "gem install puppet"
     config.vm.provision "shell", inline: "git clone https://github.com/gavinni/masterless-puppet.git"
-    config.vm.provision "shell", inline: "echo \"${virtualbox.vm.hostname} ready\""
+    config.vm.provision "shell", inline: "echo VM ready"
     config.vm.provision "shell", inline: "echo 'Access Host: ssh -p 2222 vagrant@localhost'"
   end
 
